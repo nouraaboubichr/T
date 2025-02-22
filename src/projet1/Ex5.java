@@ -10,7 +10,7 @@ public class Ex5 {
         int taille = n * n;
         Set<Integer> ensemble = new HashSet<>();
 
-        // Parcourir la matrice et ajouter chaque élément à l'ensemble
+        
         for (int[] ligne : matrice) {
             for (int valeur : ligne) {
                 // Vérifier si la valeur est dans la plage attendue et non dupliquée
